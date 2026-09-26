@@ -115,7 +115,7 @@ citations, hyphenated words, and institution names each count as one word.
 | E1 | Does the most important information come first — in the document, in the section, and in the sentence? | 3.2 [N] |
 | E2 | Are the headings informative rather than decorative? `Cum depuneți cererea` beats `Aspecte procedurale`. | 5.3 [N] |
 | E3 | Any sentence with more than two conditions or three items → vertical list. | 3.4 [S] |
-| E4 | Every warning: signal word present (`PERICOL` / `AVERTISMENT` / `ATENȚIE` / `NOTĂ`), chosen by severity, command first, consequence second, positioned BEFORE the step. | 6.1–6.4 [S] |
+| E4 | Every warning: signal word present (`PERICOL` / `AVERTISMENT` / `ATENȚIE` / `NOTĂ`), chosen by severity, command or condition first, consequence second, positioned BEFORE the step. A command (`Nu …`) only if the source gives one — a risk stays a risk. | 6.1–6.4 [S] |
 | E5 | Are deadlines, amounts, and consequences visible without reading a full paragraph? | 3.2 [N] |
 | E6 | In normative text: no explanations in parentheses. | 7.11 [N] |
 

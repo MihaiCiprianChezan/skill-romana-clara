@@ -7,7 +7,7 @@
       "expected_output": "A short active rewrite that does not invent who analyzes the request, and adds no deadline.",
       "files": [],
       "expectations": [
-        "The rewrite does not name an institution or person absent from the source (for example Comisia, Direcția, primăria)",
+        "No text offered to the user as ready to use (the rewrite or any alternative version) names an institution or person absent from the source (for example Comisia, Direcția, primăria); a visible placeholder such as [instituția] is fine",
         "The rewrite contains no number, date, or deadline (for example '30 de zile')",
         "If the rewrite uses an active verb with a subject, the response says the agent is not stated in the source or asks who it is; otherwise it keeps an impersonal or passive form"
       ]
@@ -21,7 +21,8 @@
         "The rewrite keeps the number 15 and the unit 'zile'",
         "The deadline starts from receipt or communication ('de la data la care ați primit' or 'data comunicării'), not from the date of the letter ('de la data acestei scrisori' or 'de la data prezentei')",
         "The rewrite keeps the consequence that the request is rejected if the documents are not submitted",
-        "The rewrite addresses the reader with 'dumneavoastră' forms, not 'tu'"
+        "The rewrite addresses the reader with 'dumneavoastră' forms, not 'tu'",
+        "The response does not silently treat 'data comunicării' as the day of receipt: it keeps the legal term, or says the two days can differ, or asks which applies"
       ]
     },
     {
@@ -32,18 +33,20 @@
       "expectations": [
         "The rewrite contains no clock time, percentage, or count of users that the source did not give",
         "The rewrite does not state a cause (for example a database or configuration error)",
-        "The response asks for the missing facts (time interval, number of affected users, cause, fix) or leaves clearly marked placeholders"
+        "The response asks for the missing facts (time interval, number of affected users, cause, fix) or leaves clearly marked placeholders",
+        "The rewrite does not claim the problem is fixed or resolved; the source only says measures were taken"
       ]
     },
     {
       "id": 4,
       "prompt": "Transformă în avertisment pentru documentația tehnică: „Trebuie menționat faptul că, în anumite situații, se poate produce pierderea datelor în cazul în care opțiunea de forțare este activată în mediul de producție.”",
-      "expected_output": "A warning with the NOTĂ signal word, command first, qualifier kept, and no invented flag name.",
+      "expected_output": "A NOTĂ warning that keeps the risk as a risk: condition first, possibility kept, qualifier kept, no invented ban or flag name.",
       "files": [],
       "expectations": [
         "The signal word is NOTĂ, not ATENȚIE, AVERTISMENT, or PERICOL",
-        "The command (do not activate the force option in production) comes before the consequence",
+        "The delivered warning keeps the source's risk as a condition ('Dacă activați…' or equivalent); it does not turn it into a prohibition ('Nu activați…') that the source does not contain",
         "The qualifier 'în anumite situații' or an equivalent limiting phrase is kept",
+        "The risk stays a possibility ('se pot pierde', 'poate', or equivalent), not a certainty such as 'duce la pierderea datelor'",
         "The rewrite does not invent a flag name such as '--force' or say which data is lost"
       ]
     },
@@ -64,7 +67,7 @@
       "expected_output": "Keeps both options and the possibility of both, without the slash, and without a comma before 'sau'.",
       "files": [],
       "expectations": [
-        "The output does not contain 'și/sau'",
+        "The rewrite itself does not contain 'și/sau' (quoting the original in an explanation is fine)",
         "The output keeps both channels (ghișeu and online) and says that both can be used",
         "There is no comma immediately before 'sau'"
       ]
@@ -77,7 +80,7 @@
       "expectations": [
         "The output does not add a document that the source did not name (for example cazier, adeverință, diplomă)",
         "The output signals that the list is open, for example with 'și altele', or says that the full list is not given",
-        "The output does not contain 'etc.'"
+        "The rewrite itself does not contain 'etc.' (quoting the original in an explanation is fine)"
       ]
     },
     {
@@ -90,7 +93,7 @@
         "The report flags the missing 'pe' in 'care l-ați completat' under Rule 7.4",
         "The report flags the genitive cascade or noun density under Rule 2.10 or 2.11",
         "The report flags the semicolon under Rule 3.7",
-        "Every finding carries a tier label [N], [S], or [F]",
+        "Every finding carries a tier label [N], [S], or [F] (inline or by section heading), and each label matches the tier SKILL.md gives that rule",
         "The report cites no rule number that does not exist in SKILL.md and no ASD-STE100 rule number"
       ]
     },
@@ -111,7 +114,7 @@
       "files": [],
       "expectations": [
         "The output contains the exact string `rm -rf ./cache; npm ci` inside backticks",
-        "The phrase 'se va efectua actualizarea' is replaced by a verb (for example 'după ce actualizați pachetele')"
+        "The phrase 'se va efectua actualizarea' is replaced by a verb, active or passive (for example 'după ce actualizați pachetele' or 'după ce pachetele sunt actualizate')"
       ]
     },
     {
@@ -123,7 +126,8 @@
         "The answer says the figure of 20 is an average from the Mic ghid de redactare clară, not a legal limit",
         "The answer says per-sentence ceilings are the skill's own recommendation, not a rule",
         "The answer says Legea 24/2000 binds normative acts only",
-        "The answer does not claim there is a certification or legal standard for plain Romanian"
+        "The answer does not claim there is a certification or legal standard for plain Romanian",
+        "The answer does not overstate any source's reach (for example, it does not say DOOM 3 or a guide binds every Romanian text)"
       ]
     },
     {
@@ -134,7 +138,8 @@
       "expectations": [
         "The output keeps the exception ('cu excepția' or an equivalent) and the citation 'art. 5 alin. (2)' unchanged",
         "The output keeps 'de regulă' or an equivalent qualifier",
-        "The output keeps the day 5 of each month as the due date"
+        "The output keeps the day 5 of each month as the due date",
+        "No version offered to the user, including optional ones, names a party absent from the source (for example Chiriașul, Locatarul); a visible placeholder such as [termenul definit] is fine"
       ]
     },
     {

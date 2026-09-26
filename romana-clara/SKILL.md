@@ -245,14 +245,14 @@ Do not use ATENȚIE for data loss. Data loss is NOTĂ. Conflating the two is exa
 | Rule | Instruction | Tier |
 |---|---|---|
 | 6.1 | Choose the signal word by severity, from the table above. — *82079-1, Clause 7* | **[S]** |
-| 6.2 | Give the command or the condition **first**. — *ASD-STE100 Rule 7.2* (English) | **[S]** |
-| 6.3 | Give the risk and the consequence **second**. Every warning must state what to do, what the hazard is, and what happens if the reader ignores it. | **[S]** |
+| 6.2 | Give the command or the condition **first**. — *ASD-STE100 Rule 7.2* (English). Write a command (`Nu activați…`) only when the source gives one. When the source only describes a risk, lead with the condition (`Dacă activați…`) — turning a risk into a ban adds an instruction the author did not write. | **[S]** |
+| 6.3 | Give the risk and the consequence **second**, with the source's certainty: `se poate pierde` stays `se pot pierde`, not `duce la`. Say what to do only when the source says it. | **[S]** |
 | 6.4 | Place the warning **before** the step it applies to, never after. — *82079-1, Clause 7* (via secondary sources) | **[S]** |
 
 **Înainte:** Trebuie menționat faptul că, în anumite situații, se poate produce pierderea datelor în cazul în care opțiunea de forțare este activată în mediul de producție.
-**După:** NOTĂ: Nu activați opțiunea de forțare în mediul de producție. În anumite situații, opțiunea duce la pierderea datelor.
+**După:** NOTĂ: Dacă activați opțiunea de forțare în mediul de producție, în anumite situații se pot pierde date.
 
-The qualifier `în anumite situații` stays (F4). The rewrite does not name the flag or explain what gets lost, because the source does neither. If the document names them elsewhere, use them.
+The source states a risk, not a ban, so the warning leads with the condition and keeps the risk as a possibility (`se pot`). The qualifier `în anumite situații` stays (F4). The rewrite does not name the flag or explain what gets lost, because the source does neither. If the document forbids the option elsewhere, or names the flag, use that: `NOTĂ: Nu activați opțiunea de forțare în mediul de producție. …`
 
 ## Secțiunea 7 — Ortografie și punctuație (mechanical, Romanian-specific)
 
