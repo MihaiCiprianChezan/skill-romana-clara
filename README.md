@@ -48,8 +48,11 @@ romana-clara/
     ├── verificare.md         # full audit pass with searchable patterns
     ├── domenii.md            # per-domain adaptations (docs, letters, legal, UI…)
     ├── surse.md              # every source behind an [N] rule, with quotes and URLs
-└── scripts/
-    └── verifica.py           # mechanical checks (stdlib Python 3.8+)
+├── scripts/
+│   └── verifica.py           # mechanical checks (stdlib Python 3.8+)
+└── evals/
+    ├── evals.json            # behavior tests in skill-creator format
+    └── trigger_eval.json     # 10 should-trigger, 10 near-miss queries
 ```
 
 Run the checker on a Romanian text:
@@ -60,6 +63,11 @@ python romana-clara/scripts/verifica.py --json document.md
 ```
 
 It exits 1 when it finds something. Tests: `python -m unittest discover tests`.
+
+The evals in `romana-clara/evals/` test the model, not the script. Each case targets a
+known failure: an invented agent, a moved deadline, invented numbers or commands, a
+dropped qualifier. Run them with Anthropic's `skill-creator` skill, on each model you
+plan to use.
 
 ## License
 
