@@ -47,8 +47,19 @@ romana-clara/
     ├── inlocuiri.md          # substitution tables, pleonasms, slop list
     ├── verificare.md         # full audit pass with searchable patterns
     ├── domenii.md            # per-domain adaptations (docs, letters, legal, UI…)
-    └── surse.md              # every source behind an [N] rule, with quotes and URLs
+    ├── surse.md              # every source behind an [N] rule, with quotes and URLs
+└── scripts/
+    └── verifica.py           # mechanical checks (stdlib Python 3.8+)
 ```
+
+Run the checker on a Romanian text:
+
+```sh
+python romana-clara/scripts/verifica.py document.md
+python romana-clara/scripts/verifica.py --json document.md
+```
+
+It exits 1 when it finds something. Tests: `python -m unittest discover tests`.
 
 ## License
 

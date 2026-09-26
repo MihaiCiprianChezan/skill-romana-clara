@@ -9,7 +9,9 @@ Report findings as: **rule number · offending text · compliant rewrite · tier
 
 ## A. Mechanical checks (run these first — they are deterministic)
 
-These need no judgment. Run them literally.
+These need no judgment. Run them literally — or run `python scripts/verifica.py fisier.md`,
+which covers section A, B0.1–B0.3, B1–B2, the searches in C, and D1. Hits it marks
+`de verificat` are heuristic; confirm each one. It does not cover B0.4, E, or F.
 
 | # | Search for | Why | Rule |
 |---|---|---|---|

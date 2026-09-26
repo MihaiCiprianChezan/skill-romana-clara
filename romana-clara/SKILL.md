@@ -402,6 +402,8 @@ LC_ALL=C.UTF-8 grep -nP '[\x{015E}\x{015F}\x{0162}\x{0163}]' fisier.md
 
 The `LC_ALL` prefix matters — without a UTF-8 locale, `grep -P` rejects the codepoints. (Running this over the skill's own files returns hits: those are the rule text that documents the wrong characters. Expected.)
 
+If you can run Python, `python scripts/verifica.py fisier.md` runs the mechanical part of these checks — diacritics, hyphens, word counts by Section 8, density, genitive cascades, rotated synonyms — and prints findings in the report format of `verificare.md` §G. Hits marked `de verificat` are heuristic: confirm each one before you report it. The script does not replace checks 3–5 or the integrity check.
+
 For a full audit, use `references/verificare.md`.
 
 # EXEMPLU COMPLET
