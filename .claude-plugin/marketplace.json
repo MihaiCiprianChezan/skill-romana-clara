@@ -1,0 +1,14 @@
+{
+  "name": "romana-clara",
+  "description": "Plain-language Romanian writing skill for Claude Code",
+  "owner": {
+    "name": "Mihai-Ciprian Chezan"
+  },
+  "plugins": [
+    {
+      "name": "romana-clara",
+      "source": "./",
+      "description": "Write or rewrite Romanian text so it is clear, direct, and hard to misread"
+    }
+  ]
+}
