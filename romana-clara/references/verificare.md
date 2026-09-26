@@ -86,7 +86,7 @@ citations, hyphenated words, and institution names each count as one word.
 | C5 | `urmează a fi`, `urmează să se`, `este de menționat`, `a fi + supin` | Write the plain future or the plain statement. | 2.8, 2.9 [S] |
 | C6 | `ar putea`, `s-ar putea`, `eventual`, `este posibil să`, `se recomandă` | Apply the modal ladder, **Rule 2.12**. | 2.12 [S] |
 | C6b | `ar trebui`, `ar fi de dorit` | **Do not swap mechanically.** Obligation or suggestion? `trebuie` creates a duty; if the drafter meant a recommendation you have just invented an obligation. If the document does not settle it, report it as [F] and ask. | 2.12 [F] |
-| C7 | Stacked modifiers on one noun (`servicii medicale cruciale salvatoare de viață`) | Split into a short noun plus a relative clause: `servicii medicale care salvează vieți`. Adding prepositions is **not** the fix for a genitive cascade — see B0.3 and Rule 2.11. | 2.4 [N]/[S] |
+| C7 | Stacked modifiers on one noun (`servicii medicale cruciale salvatoare de viață`) | Split into a short noun plus a relative clause: `servicii medicale care salvează vieți`. Adding prepositions is **not** the fix for a genitive cascade — see B0.3 and Rule 2.11. | 2.4 [S] |
 | C8 | Normative or procedural text in past or conditional | Present tense, affirmative form. | 2.7 [N] |
 
 ---
@@ -112,8 +112,8 @@ citations, hyphenated words, and institution names each count as one word.
 |---|---|---|
 | E1 | Does the most important information come first — in the document, in the section, and in the sentence? | 3.2 [N] |
 | E2 | Are the headings informative rather than decorative? `Cum depuneți cererea` beats `Aspecte procedurale`. | 5.3 [N] |
-| E3 | Any sentence with more than two conditions or three items → vertical list. | 3.4 [N] |
-| E4 | Every warning: signal word present (`PERICOL` / `AVERTISMENT` / `ATENȚIE` / `NOTĂ`), chosen by severity, command first, consequence second, positioned BEFORE the step. | 6.1, 6.4 [N]; 6.2–6.3 [S] |
+| E3 | Any sentence with more than two conditions or three items → vertical list. | 3.4 [S] |
+| E4 | Every warning: signal word present (`PERICOL` / `AVERTISMENT` / `ATENȚIE` / `NOTĂ`), chosen by severity, command first, consequence second, positioned BEFORE the step. | 6.1–6.4 [S] |
 | E5 | Are deadlines, amounts, and consequences visible without reading a full paragraph? | 3.2 [N] |
 | E6 | In normative text: no explanations in parentheses. | 7.11 [N] |
 

@@ -168,6 +168,10 @@ sources agreeing on one-term-one-concept is as strong as this skill's evidence g
 
 https://clearglobal.org/wp-content/uploads/2022/12/CLEAR-Global-What-is-plain-language-tipsheet-Romanian.pdf
 
+**Tier [S], attested.** CLEAR Global is an NGO, not a Romanian authority, so its tipsheet
+does not meet the [N] definition. Rules that rest on it alone (2.4, 3.4) are [S]. Name it
+when you use one of them; do not call it a rule of Romanian.
+
 > Limbajul simplu este un stil de scriere sau vorbire care facilitează: găsirea
 > informațiilor pe care le căutați, înțelegerea a ceea ce găsiți, și folosirea
 > informațiilor pe care le-ați înțeles.
@@ -179,7 +183,7 @@ https://clearglobal.org/wp-content/uploads/2022/12/CLEAR-Global-What-is-plain-la
 > informațiile.
 
 This is the source for Rule 3.4. It does not set a trigger; "more than two conditions,
-more than three items" is **[S]**.
+more than three items" is this skill's.
 
 > Folosiți diateza activă: „echipa a distribuit pături" în loc de „au fost distribuite pături".
 
@@ -222,7 +226,8 @@ specification. The German technical-writing mnemonic SAFE (severity → hazard t
 consequence → escape) orders the same elements differently, and neither order is quoted
 from 82079-1. Hence **[S]**. Placing the warning before the hazardous step (Rule 6.4) is
 the part 82079-1 does require, as summarized by secondary sources; the exact clause text
-is paywalled.
+is paywalled, so 6.4 is **[S]** too. If you obtain the clause text, quote it here and
+the rule can move to a stronger footing.
 
 **Signal-word severities.** 82079-1 inherits the ANSI Z535 / ISO 3864-2 ladder:
 

@@ -11,8 +11,8 @@ evidence tier:
 
 | Tier | Meaning |
 |---|---|
-| **[N]** | Normative: a statute, DOOM, an official EU guide, or CLEAR Global RO says it |
-| **[S]** | House style: defensible, but no Romanian authority rules on it |
+| **[N]** | Normative: a statute, DOOM, or an official EU guide says it |
+| **[S]** | House style: defensible, but no Romanian authority rules on it (some are attested by a named non-authority source) |
 | **[F]** | Flag only: needs a human decision, never auto-fixed |
 
 ## Install

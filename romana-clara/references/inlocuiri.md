@@ -91,7 +91,7 @@ a pair; do not call it a rule.
 | calmitate | calmul |
 | a lectura | a citi |
 | a consuma | a mânca / a bea |
-| a concluziona | a trage concluzia / concluzii |
+| a concluziona | a trage concluzii |
 | a (se) focusa pe | a se concentra pe / a se centra pe |
 
 `a demara → a începe` is attested by two independent sources (this one and the EU guide).

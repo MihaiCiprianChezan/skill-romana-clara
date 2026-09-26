@@ -58,11 +58,13 @@ Every rule carries a tag. This exists because it is very easy to state a Romania
 
 | Tag | Meaning | How to present it |
 |---|---|---|
-| **[N]** | Normative. A statute, DOOM, an official EU guide, or the CLEAR Global Romanian plain-language tipsheet says this, in these words. | You may cite the source by name. |
+| **[N]** | Normative. A statute, DOOM, or an official EU guide says this, in these words. | You may cite the source by name. |
 | **[S]** | House style. Defensible and widely practiced, but no Romanian authority rules on it. | Present as a recommendation, never as "the rule says". |
 | **[F]** | Flag only. Detectable but not decidable without knowing intent or context. | Raise it for a human. Never auto-fix. |
 
-A rule can carry a quote at **[N]** and a threshold at **[S]** — the source said *avoid noun strings*, it did not say *three*. Where that happens, the split is marked.
+A rule can carry a quote at **[N]** and a threshold at **[S]** — the source said *20 words on average*, it did not say *25 per sentence*. Where that happens, the split is marked.
+
+Some [S] rules are **attested**: a named source says them, but the source is not a statute, DOOM, or an official EU guide — the CLEAR Global RO tipsheet (an NGO), a linguistics paper, or an English-only or paywalled standard. Name the source when you use such a rule; do not call it a rule of Romanian.
 
 If a user challenges a rule, tell them the tier honestly. An [S] rule is your judgment, and they are entitled to overrule it.
 
@@ -138,7 +140,7 @@ English STE fights the passive. Romanian has four ways to hide who does what and
 | 2.1 | **Name the agent.** State who does the action. — *Mic ghid, Rec. 5*: `Indicați agenții fiecărei acțiuni` | **[N]** |
 | 2.2 | **Rewrite the reflexive passive** (`se va proceda`, `se comunică`, `se efectuează`) as an active verb with a named subject — **when the agent is recoverable from the text you have.** | **[S]** |
 | 2.3 | **Turn nominalizations back into verbs.** `efectuarea verificării` → `a verifica`. — *Mic ghid, Rec. 6*: `Evitați substantivele inutile – formele verbale sunt mai dinamice` | **[N]** |
-| 2.4 | **Do not stack modifiers on a noun.** — *CLEAR Global RO*: `Evitați șirurile de substantive`. Quote **[N]**; the working ceiling of three is **[S]**. | **[N]** / **[S]** |
+| 2.4 | **Do not stack modifiers on a noun.** — attested by *CLEAR Global RO*: `Evitați șirurile de substantive`. The working ceiling of three is this skill's. | **[S]** |
 | 2.5 | **Use the gerunziu only when its subject is unmistakable and adjacent.** Ambiguous attachment, doubled temporal-plus-causal reading, or distance from its controller each mean: rewrite as a finite clause. (Șuteu, *Limba română* VI/5, 1957.) | **[F]** |
 | 2.6 | The canonical passive is allowed when the agent is genuinely unknown or irrelevant. *Mic ghid* Rec. 7 is explicit: `Nu este nevoie să evitați diateza pasivă cu orice preț.` | **[N]** |
 | 2.7 | In normative and procedural text use the **present tense, affirmative form**. — *L. 24/2000 Art. 38 alin. (2)* | **[N]** |
@@ -197,7 +199,7 @@ Every agent named in these rewrites is already in the source sentence. None is g
 | 3.1 | Write short, complete sentences. — *Mic ghid, Rec. 4* (short). Short does not mean elliptical — keep articles, keep `că`, keep `pe care` (**[S]**). | **[N]** / **[S]** |
 | 3.2 | Put the important information at the start, not buried mid-sentence. — *Mic ghid, Rec. 5*; *CLEAR Global RO* | **[N]** |
 | 3.3 | Present actions in the order they happen. — *Mic ghid, Rec. 5* | **[N]** |
-| 3.4 | Use a vertical list when a sentence carries several conditions or several items. — *CLEAR Global RO*. Quote **[N]**; the working trigger (more than two conditions, more than three items) is **[S]**. | **[N]** / **[S]** |
+| 3.4 | Use a vertical list when a sentence carries several conditions or several items. — attested by *CLEAR Global RO*. The working trigger (more than two conditions, more than three items) is this skill's. | **[S]** |
 | 3.5 | Connect related sentences explicitly: `Apoi`, `Prin urmare`, `În caz contrar`, `Dacă nu`. | **[S]** |
 | 3.6 | Do not stack subordinate clauses. Two levels is the practical ceiling. | **[S]** |
 | 3.7 | Do not use the semicolon to join two independent statements. Write two sentences. | **[S]** |
@@ -228,23 +230,23 @@ Every agent named in these rewrites is already in the source sentence. None is g
 
 ## Secțiunea 6 — Avertismente și siguranță
 
-The severity ladder comes from the ANSI Z535 / ISO 3864-2 tradition that SR EN IEC/IEEE 82079-1:2020 (adopted in Romania by ASRO) builds on, and the severity definitions are **[N]**. The **order** inside a warning (Rules 6.2–6.3) comes from ASD-STE100 Rule 7.2, an English-only specification, so it is **[S]** for Romanian. The **Romanian labels** below are this skill's coinage — the ASRO adoption is an English-text endorsement, so no official Romanian wording exists — and are **[S]**. If your organization already uses different Romanian labels, keep yours and keep them consistent.
+Everything in this section is **[S]**, attested by named standards. The severity ladder comes from the ANSI Z535 / ISO 3864-2 tradition that SR EN IEC/IEEE 82079-1:2020 (adopted in Romania by ASRO) builds on. The **order** inside a warning (Rules 6.2–6.3) comes from ASD-STE100 Rule 7.2, an English-only specification. Placing the warning before the step (Rule 6.4) is attested for 82079-1 only through secondary sources, because the clause text is paywalled. None of these is a statute, DOOM, or an EU guide, so none is **[N]**. Name the standard when you apply a rule. The **Romanian labels** below are this skill's coinage — the ASRO adoption is an English-text endorsement, so no official Romanian wording exists. If your organization already uses different Romanian labels, keep yours and keep them consistent.
 
 | Signal word | Severity (per the standard) | Tier |
 |---|---|---|
-| **PERICOL** (DANGER) | Imminent hazard that **will** cause death or serious injury | **[N]** severity / **[S]** label |
-| **AVERTISMENT** (WARNING) | Hazard that **could** cause death or serious injury | **[N]** / **[S]** |
-| **ATENȚIE** (CAUTION) | Hazard that could cause **minor or moderate injury** | **[N]** / **[S]** |
-| **NOTĂ** (NOTICE) | **Property, data, or equipment damage — no personal injury** | **[N]** / **[S]** |
+| **PERICOL** (DANGER) | Imminent hazard that **will** cause death or serious injury | **[S]** |
+| **AVERTISMENT** (WARNING) | Hazard that **could** cause death or serious injury | **[S]** |
+| **ATENȚIE** (CAUTION) | Hazard that could cause **minor or moderate injury** | **[S]** |
+| **NOTĂ** (NOTICE) | **Property, data, or equipment damage — no personal injury** | **[S]** |
 
 Do not use ATENȚIE for data loss. Data loss is NOTĂ. Conflating the two is exactly the error the severity ladder exists to prevent.
 
 | Rule | Instruction | Tier |
 |---|---|---|
-| 6.1 | Choose the signal word by severity, from the table above. | **[N]** |
+| 6.1 | Choose the signal word by severity, from the table above. — *82079-1, Clause 7* | **[S]** |
 | 6.2 | Give the command or the condition **first**. — *ASD-STE100 Rule 7.2* (English) | **[S]** |
 | 6.3 | Give the risk and the consequence **second**. Every warning must state what to do, what the hazard is, and what happens if the reader ignores it. | **[S]** |
-| 6.4 | Place the warning **before** the step it applies to, never after. — *82079-1, Clause 7* | **[N]** |
+| 6.4 | Place the warning **before** the step it applies to, never after. — *82079-1, Clause 7* (via secondary sources) | **[S]** |
 
 **Înainte:** Trebuie menționat faptul că, în anumite situații, se poate produce pierderea datelor în cazul în care opțiunea de forțare este activată în mediul de producție.
 **După:** NOTĂ: Nu activați opțiunea de forțare în mediul de producție. În anumite situații, opțiunea duce la pierderea datelor.
