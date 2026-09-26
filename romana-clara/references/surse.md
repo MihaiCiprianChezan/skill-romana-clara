@@ -340,13 +340,43 @@ plain Romanian. This skill is an unofficial aid.
   numeral, morfologie și sintaxă)
 - dexonline, Ghid de exprimare corectă — https://dexonline.ro/article/Ghid_de_exprimare_corect%C4%83
 
-**Not consulted, worth mining.** The IER *Ghid stilistic de traducere în limba română*
-(ed. a V-a, 2008, 158 p., coord. Laura Ana-Maria Vrabie) is **publicly available** at
-http://ier.gov.ro/wp-content/uploads/2020/04/ghid_stilistic_2008_erata-1.pdf — it was
-simply unreachable from the environment this skill was built in. Its Part Three is
-described as containing dense Romanian norms and translation conventions, which makes it
-the single best remaining source of attested pairs. The DGT *Ghid practic al
-Departamentului de limba română* (2014) survives only on gated mirrors.
+**Not consulted.** The DGT *Ghid practic al Departamentului de limba română* (2014)
+survives only on gated mirrors. Nothing in this skill is attributed to it.
 
-**Nothing in this skill is attributed to either.** If you open the IER guide, pairs
-confirmed there can be promoted from **[S]** to **[N]**.
+---
+
+## 10. IER — Ghid stilistic de traducere în limba română (2008)
+
+Institutul European din România, *Ghid stilistic de traducere în limba română pentru uzul
+traducătorilor acquis-ului comunitar*, ed. a V-a, coord. Laura Ana-Maria Vrabie, 2008.
+http://ier.gov.ro/wp-content/uploads/2020/04/ghid_stilistic_2008_erata-1.pdf
+(the site shows a short browser check before the PDF loads). Section numbers below are
+the guide's own; Part Three (§3.1–§3.3) holds the Romanian norms.
+
+**What it is.** A translation-conformity guide for EU legislation, from a Romanian public
+institution. It is not a plain-language guide: it asks translators to keep the structure
+of the source, not to simplify it.
+
+**What it corroborates** (rules already [N] on other sources; no tier changes):
+
+> În partea dispozitivă a actelor obligatorii […] se folosește timpul prezent, forma
+> afirmativă […]. […] trebuie evitată, pe cât posibil, folosirea viitorului. (§3.3.3)
+
+Rule 2.7. The same section says non-binding acts use `se recomandă` and `ar trebui` — the
+evidence behind the caution in Rule 2.12.
+
+> Prepoziția pe precede obligatoriu pronumele relativ care în acuzativ. (§3.3.4)
+
+Rule 7.4.
+
+> Coordonatele legate prin și copulativ ori prin sau disjunctiv nu se despart prin
+> virgulă. (§3.1.2.2)
+
+The no-comma-before-`sau` note for `și/sau`. §3.1.2.1 adds: no comma before `etc.`.
+§3.1.2.2 also states the explicative/determinative comma rule behind Rule 7.8.
+
+**What it does not support.** No [S] rule in this skill moved to [N], because the guide
+does not rule on them or does the opposite in its own text: it uses `și/sau` in examples,
+separates recitals with semicolons, keeps `datorită` for neutral causes, and writes
+`ca și instituție`. Its scope explains this — it governs translated legislation, where
+fidelity to the source outranks readability. See domenii.md §4 for where that matters.

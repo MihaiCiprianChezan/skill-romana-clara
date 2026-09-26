@@ -22,7 +22,8 @@ metadata:
     Legea 24/2000 (republicată) Art. 8, 36, 37, 38; DOOM 3 (Academia Română,
     2021); DOOM² (2005); Legea 183/2006 + Ordin MCTI 414/2006; Mic ghid de
     redactare clară (Comisia Europeană, 2015); Ghid practic comun
-    (PE/Consiliu/Comisie); CLEAR Global RO (2022); SR EN IEC/IEEE 82079-1:2020
+    (PE/Consiliu/Comisie); IER Ghid stilistic (2008); CLEAR Global RO (2022);
+    SR EN IEC/IEEE 82079-1:2020
   note: >-
     No official controlled Romanian exists. This skill assembles binding norms,
     EU guidance, and marked editorial judgment into one working rule set.
@@ -143,7 +144,7 @@ English STE fights the passive. Romanian has four ways to hide who does what and
 | 2.4 | **Do not stack modifiers on a noun.** — attested by *CLEAR Global RO*: `Evitați șirurile de substantive`. The working ceiling of three is this skill's. | **[S]** |
 | 2.5 | **Use the gerunziu only when its subject is unmistakable and adjacent.** Ambiguous attachment, doubled temporal-plus-causal reading, or distance from its controller each mean: rewrite as a finite clause. (Șuteu, *Limba română* VI/5, 1957.) | **[F]** |
 | 2.6 | The canonical passive is allowed when the agent is genuinely unknown or irrelevant. *Mic ghid* Rec. 7 is explicit: `Nu este nevoie să evitați diateza pasivă cu orice preț.` | **[N]** |
-| 2.7 | In normative and procedural text use the **present tense, affirmative form**. — *L. 24/2000 Art. 38 alin. (2)* | **[N]** |
+| 2.7 | In normative and procedural text use the **present tense, affirmative form**. — *L. 24/2000 Art. 38 alin. (2)*; *IER 2008, §3.3.3* (avoid the future) | **[N]** |
 | 2.8 | Avoid `urmează a fi`, `este de menționat că`, `a fi + supin` in official prose. Write `va fi`, or delete the frame and state the fact. | **[S]** |
 | 2.9 | Do not build the future out of `a urma`: `urmează să se transmită` → `transmitem` / `vom transmite`. | **[S]** |
 | **2.10** | **Count the density, not just the words.** More than one abstract verbal noun (`-are`, `-ere`, `-ire`, `-ție` + genitive) in one sentence is a rewrite, whatever the word count. If a passage passes 4.1/5.1 and still reads as opaque, count nouns against finite verbs: above roughly 3:1, density is the fault. | **[S]** |
@@ -164,11 +165,11 @@ Romanian modals leak obligation. This matters double when the reader is an agent
 
 | You wrote | Write instead | Tier |
 |---|---|---|
-| `ar trebui` | **[F] — do not swap mechanically.** Decide first: is this an obligation or a suggestion? An obligation becomes `trebuie`; a suggestion is stated as fact or deleted. Turning a recommendation into `trebuie` silently creates a duty that the drafter did not write. If you cannot tell from the document, flag it and ask. | **[F]** |
+| `ar trebui` | **[F] — do not swap mechanically.** Decide first: is this an obligation or a suggestion? An obligation becomes `trebuie`; a suggestion is stated as fact or deleted. Turning a recommendation into `trebuie` silently creates a duty that the drafter did not write. In EU-derived text the choice is deliberate: non-binding acts use `ar trebui` and `se recomandă` to mark a recommendation (*IER 2008, §3.3.3*). If you cannot tell from the document, flag it and ask. | **[F]** |
 | `ar putea` / `s-ar putea` / `eventual` (possibility) | `poate` | **[S]** |
 | `este posibil să` | `poate` | **[S]** |
 | `poate … eventual` | Drop `eventual` — `poate` already carries the possibility. | **[S]** |
-| `se recomandă` | Name who recommends, or turn it into an instruction. | **[S]** |
+| `se recomandă` | Name who recommends. Turn it into an instruction only if the document makes it binding — otherwise it stays a recommendation, same test as `ar trebui`. | **[S]** |
 | `ar fi de dorit` | `trebuie`, or delete — same [F] test as `ar trebui`. | **[F]** |
 | `este necesar să se efectueze` | the imperative: `efectuați` | **[S]** |
 
@@ -262,11 +263,11 @@ These are the checks a machine can actually run. Several are legally grounded.
 | 7.1 | **Diacritics are mandatory.** DOOM 3: `Folosirea semnelor diacritice este obligatorie.` | **[N]** |
 | 7.2 | **Use comma-below, not cedilla.** Correct: `ș` U+0219, `Ș` U+0218, `ț` U+021B, `Ț` U+021A. Wrong: `ş` U+015F, `ţ` U+0163 — a Windows-era encoding artifact. — *DOOM 3*; *Legea 183/2006* + *Ordin MCTI 414/2006*, whose annex lists exactly these four codepoints and no cedilla variants | **[N]** |
 | 7.3 | Use `â` inside words and `î` at the edges; use the form `sunt`, not `sînt`. Keep `î` inside a word when it starts the second element of a prefixed or compound word: `neîncredere`, `reîntoarcere`, `bineînțeles`. — *Mic ghid, Rec. 10*; *DOOM 3* | **[N]** |
-| 7.4 | **`pe care` is obligatory** for a relative pronoun functioning as direct object: `cartea pe care am citit-o`, not `cartea care am citit-o`. — *DOOM² (2005), p. XCIII* | **[N]** |
+| 7.4 | **`pe care` is obligatory** for a relative pronoun functioning as direct object: `cartea pe care am citit-o`, not `cartea care am citit-o`. — *DOOM² (2005), p. XCIII*; *IER 2008, §3.3.4* | **[N]** |
 | 7.5 | `datorită` only for causes with a positive outcome. Otherwise `din cauza`: `din cauza prăbușirii malului`. | **[S]** |
 | 7.6 | Do not insert `ca și` to dodge a cacophony. Use `ca`. Keep `ca și` in a real comparison. | **[S]** |
 | 7.7 | `din punctul de vedere al X` (articulated + genitive) or `din punct de vedere X` (+ adjective). Never `din punct de vedere al X`. | **[S]** |
-| 7.8 | Comma before `care`: present for an explanatory clause, absent for a defining one. Semantic distinction. | **[F]** |
+| 7.8 | Comma before `care`: present for an explanatory clause, absent for a defining one (*IER 2008, §3.1.2.2*). The rule is settled; applying it needs the writer's intent, which is why it is a flag. | **[F]** |
 | 7.9 | Cacophony: do not enforce. DOOM 3 does not rule on it, and the "accepted cacophonies" lists have no normative status. | **[F]** |
 | 7.10 | Remove **true** pleonasms: `alegeri electorale` → `alegeri`; `a preciza foarte clar` → `a preciza`. See `inlocuiri.md` §7 — and note which entries there are **not** safe to auto-correct. | **[S]** |
 | 7.11 | In normative text, do not explain things in parentheses. — *L. 24/2000 Art. 38 alin. (3)* | **[N]** |
@@ -332,7 +333,7 @@ Reasonable, widely practiced, **no Romanian authority rules on them.** They foll
 | a deține | a avea |
 | a finaliza | a termina |
 | a lectura | a citi |
-| a concluziona | a trage concluzia |
+| a concluziona | a trage concluzii |
 | a se focusa pe | a se concentra pe |
 | modalitate | mod |
 | problematică | problemă |
@@ -353,7 +354,7 @@ These carry no fact. Do not swap them; remove them. If removing one loses inform
 
 `merită menționat faptul că` · `este important de reținut că` · `trebuie subliniat că` · `după cum urmează` (usually) · `pur și simplu` · `ușor` (as praise — never in `ușor inflamabil`) · `fără efort` · `în mod fluid` · `robust` · `puternic` · `cuprinzător` · `performant` · `de ultimă generație` · `extrem de rapid` · `soluție de tip` · `din punct de vedere tehnic` (usually) · `este conceput pentru a` (say what it does) · `are ca scop` (say what it does) · `permite utilizatorului să` (write `puteți`) · `funcționalitate` (write `funcție`) · `a valorifica` (write `a folosi`) · `a facilita` (write `a ajuta` / `a face posibil`) · `a aborda problema` (write `a corecta eroarea`)
 
-**`și/sau` → write `X, Y sau ambele`.** Do not "pick one" — picking one always changes the meaning. No comma before `sau`: Romanian does not use the serial comma.
+**`și/sau` → write `X, Y sau ambele`.** Do not "pick one" — picking one always changes the meaning. No comma before `sau`: Romanian does not separate items joined by `și` or `sau` with a comma (*IER 2008, §3.1.2*).
 
 ## Consistency pass
 
@@ -429,6 +430,8 @@ One sentence, 64 words by the rules in Section 8, five hidden agents, and a four
 What changed: one 64-word sentence became a heading plus four sentences, longest 13 words; `se aduce la cunoștință` / `s-a constatat` / `se va proceda` / `nu este efectuată` / `să fie clasată` all got a named agent or an imperative; `urmare a analizării` became a verb (2.3); the consequence moved to where the reader will find it; the deadline is now the most visible thing on the page. One verb — `completați` — carries the instruction throughout, with no rotation (1.5).
 
 The deadline starts from `data comunicării`, the day the letter reaches the reader — not the date printed on it. Writing `de la data acestei scrisori` would have moved the deadline: a changed fact in a sentence that reads better (F1 in `verificare.md`).
+
+The day the letter reaches the reader is the usual case, not a rule. The procedure law that governs the letter can fix when communication counts as made — for example for electronic delivery or a public posting — and that day may not be the day the reader actually receives the letter. If the source names such a law, or you do not know which law applies, keep `data comunicării` and explain it in a short sentence the source supports, or ask. Do not replace a legal term with its everyday meaning when the two can fall on different days.
 
 `În vederea asigurării respectării prevederilor legale în materie` names no provision, so it carries no fact and was deleted. If the original had cited an article, the citation would stay, on its own line as `Temei legal`.
 

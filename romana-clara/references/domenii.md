@@ -141,6 +141,20 @@ For contracts, which the law does not bind:
   you did not touch and why. That is a better outcome than a readable clause that means
   something else.
 
+For translations of EU legislation, the IER *Ghid stilistic* (2008) governs, and it
+pulls against this skill in three places:
+
+- A translation keeps the number of paragraphs, sentences, and independent structures of
+  the original (IER §3.5, point 15). Do not split sentences in the translated act.
+- Recitals written in the `întrucât` form are separated by semicolons (IER §2.2.1.2).
+  Rule 3.7 does not apply to them.
+- The guide keeps `și/sau` where the source has *and/or*. Keep it.
+
+Write in plain Romanian only around the act — summaries, cover letters, explanations —
+never inside the translated text. Two IER conventions do apply to your own legal
+Romanian: binding provisions in the present tense, not the future (IER §3.3.3, as Rule
+2.7), and `este`, not `e`.
+
 ---
 
 ## 5. Mesaje de eroare și interfețe

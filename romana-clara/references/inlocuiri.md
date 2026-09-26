@@ -120,7 +120,7 @@ and (4) as applied judgment. Present them as recommendations, never as "the rule
 | la momentul | când |
 | până la momentul | până când |
 | în termen de X zile de la data prezentei | în X zile de la data acestei scrisori |
-| în termen de X zile de la data comunicării prezentei | în X zile de la data la care ați primit această scrisoare — **not** `de la data acestei scrisori`, which moves the deadline |
+| în termen de X zile de la data comunicării prezentei | în X zile de la data la care ați primit această scrisoare — **not** `de la data acestei scrisori`, which moves the deadline. If a law fixes when communication counts as made (electronic delivery, posting), keep `data comunicării` and explain it — see SKILL.md, Exemplu complet |
 | prezenta (adresă/scrisoare) | această scrisoare |
 | sus-numitul / susmenționatul | numele persoanei |
 | mai sus menționat | acest / această + substantiv |
@@ -325,7 +325,7 @@ Romanian AI-generated and consultant prose overuses these. They carry no fact.
 | din start / by default | implicit |
 | în spate / sub capotă | intern |
 | a eficientiza | a face mai simplu / mai rapid |
-| și/sau | `X, Y sau ambele` — **never "pick one"**, which always changes the meaning. No comma before `sau` |
+| și/sau | `X, Y sau ambele` — **never "pick one"**, which always changes the meaning. No comma before `sau` (IER 2008, §3.1.2). Exception: in a translation of an EU act, keep `și/sau` where the source has *and/or* (domenii.md §4) |
 | etc. | `și altele` — preserves the open list. Name the items **only** when the source says what they are; otherwise you are inventing them (F5). Deleting `etc.` outright loses information. |
 | ș.a.m.d. | `și așa mai departe`, or `și altele` — same caution as `etc.` |
 
