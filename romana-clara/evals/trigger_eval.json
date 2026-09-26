@@ -1,0 +1,22 @@
+[
+  {"query": "Poți să-mi rescrii scrisoarea asta către clienți ca să o înțeleagă oricine? „Vă aducem la cunoștință că, urmare a verificărilor efectuate, s-a constatat existența unor debite restante.”", "should_trigger": true},
+  {"query": "scoate limbajul de lemn din procedura asta de arhivare, o citesc oameni obosiți la tură de noapte", "should_trigger": true},
+  {"query": "I'm translating our operator manual from English into Romanian. Make sure the Romanian version is easy for machine operators to follow.", "should_trigger": true},
+  {"query": "Verifică dacă textul ăsta respectă regulile de limbaj clar și spune-mi ce trebuie schimbat", "should_trigger": true},
+  {"query": "Write the Romanian error messages for our signup form: invalid email, weak password, account already exists", "should_trigger": true},
+  {"query": "Am primit o decizie de la primărie și nu înțeleg nimic. Rescrie-o pe înțelesul unui om obișnuit.", "should_trigger": true},
+  {"query": "make this Romanian readable, it goes to the whole company tomorrow: „Se impune efectuarea unei analize a modalităților de optimizare a fluxurilor.”", "should_trigger": true},
+  {"query": "Redactează un anunț pentru locatari: se oprește apa caldă marți între 9 și 14 pentru lucrări la rețea.", "should_trigger": true},
+  {"query": "Simplifică această clauză din contractul de închiriere fără să schimbi ce înseamnă juridic", "should_trigger": true},
+  {"query": "Scrie un system prompt în română pentru un agent de suport clienți al unei bănci", "should_trigger": true},
+  {"query": "Tradu în engleză textul ăsta: „Termenul de depunere a declarației este 25 mai.”", "should_trigger": false},
+  {"query": "Scrie o poezie în română despre toamna în Maramureș", "should_trigger": false},
+  {"query": "Fă-mi trei sloganuri catchy în română pentru o cafenea de specialitate", "should_trigger": false},
+  {"query": "Rewrite this English error message in Simplified Technical English: 'The operation could not be completed due to an unexpected condition.'", "should_trigger": false},
+  {"query": "Ce înseamnă juridic cuvântul „reziliere” și cum diferă de „rezoluțiune”?", "should_trigger": false},
+  {"query": "Care sunt diferențele dintre DOOM 2 și DOOM 3 la scrierea cu cratimă?", "should_trigger": false},
+  {"query": "Scrie un eseu argumentativ de bacalaureat despre rolul lecturii", "should_trigger": false},
+  {"query": "Explain the Romanian genitive case to me in English with a few examples", "should_trigger": false},
+  {"query": "Summarize this Romanian news article in two English sentences", "should_trigger": false},
+  {"query": "Corectează doar greșelile de tastare din mesajul ăsta către mama, nu schimba stilul: „Ajung pe la 7, pregateste te rog ciorba.”", "should_trigger": false}
+]

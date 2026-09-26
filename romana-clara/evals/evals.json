@@ -1,0 +1,156 @@
+{
+  "skill_name": "romana-clara",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Rescrie în română clară: „Se va proceda la analizarea cererii și se va comunica rezultatul.”",
+      "expected_output": "A short active rewrite that does not invent who analyzes the request, and adds no deadline.",
+      "files": [],
+      "expectations": [
+        "No text offered to the user as ready to use (the rewrite or any alternative version) names an institution or person absent from the source (for example Comisia, Direcția, primăria); a visible placeholder such as [instituția] is fine",
+        "The rewrite contains no number, date, or deadline (for example '30 de zile')",
+        "If the rewrite uses an active verb with a subject, the response says the agent is not stated in the source or asks who it is; otherwise it keeps an impersonal or passive form"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Rescrie pentru un cetățean: „Vă aducem la cunoștință că aveți obligația de a depune documentele lipsă în termen de 15 zile de la data comunicării prezentei, sub sancțiunea respingerii cererii.”",
+      "expected_output": "A plain rewrite that keeps 15 days and keeps the deadline anchored to receipt, and keeps the consequence.",
+      "files": [],
+      "expectations": [
+        "The rewrite keeps the number 15 and the unit 'zile'",
+        "The deadline starts from receipt or communication ('de la data la care ați primit' or 'data comunicării'), not from the date of the letter ('de la data acestei scrisori' or 'de la data prezentei')",
+        "The rewrite keeps the consequence that the request is rejected if the documents are not submitted",
+        "The rewrite addresses the reader with 'dumneavoastră' forms, not 'tu'",
+        "The response does not silently treat 'data comunicării' as the day of receipt: it keeps the legal term, or says the two days can differ, or asks which applies"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Rescrie în română clară acest raport de incident: „Am identificat o problemă care este posibil să fi afectat un număr de utilizatori și am luat măsurile necesare pentru remedierea situației.”",
+      "expected_output": "A clearer report that does not fabricate times, counts, percentages, or causes, and asks for the incident timeline.",
+      "files": [],
+      "expectations": [
+        "The rewrite contains no clock time, percentage, or count of users that the source did not give",
+        "The rewrite does not state a cause (for example a database or configuration error)",
+        "The response asks for the missing facts (time interval, number of affected users, cause, fix) or leaves clearly marked placeholders",
+        "The rewrite does not claim the problem is fixed or resolved; the source only says measures were taken"
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "Transformă în avertisment pentru documentația tehnică: „Trebuie menționat faptul că, în anumite situații, se poate produce pierderea datelor în cazul în care opțiunea de forțare este activată în mediul de producție.”",
+      "expected_output": "A NOTĂ warning that keeps the risk as a risk: condition first, possibility kept, qualifier kept, no invented ban or flag name.",
+      "files": [],
+      "expectations": [
+        "The signal word is NOTĂ, not ATENȚIE, AVERTISMENT, or PERICOL",
+        "The delivered warning keeps the source's risk as a condition ('Dacă activați…' or equivalent); it does not turn it into a prohibition ('Nu activați…') that the source does not contain",
+        "The qualifier 'în anumite situații' or an equivalent limiting phrase is kept",
+        "The risk stays a possibility ('se pot pierde', 'poate', or equivalent), not a certainty such as 'duce la pierderea datelor'",
+        "The rewrite does not invent a flag name such as '--force' or say which data is lost"
+      ]
+    },
+    {
+      "id": 5,
+      "prompt": "Rescrie ca pași numerotați: „Înainte de aplicarea migrării, starea serviciului trebuie să fie verificată prin rularea comenzii de status, iar ulterior se va proceda la aplicarea migrării.”",
+      "expected_output": "Two numbered imperative steps; the status command is not invented.",
+      "files": [],
+      "expectations": [
+        "The output is a numbered list with imperative verbs",
+        "Checking the status comes before applying the migration",
+        "The output does not supply a concrete command such as 'systemctl status', 'kubectl', or 'docker ps'"
+      ]
+    },
+    {
+      "id": 6,
+      "prompt": "Simplifică: „Cererea poate fi depusă la ghișeu și/sau prin intermediul platformei online.”",
+      "expected_output": "Keeps both options and the possibility of both, without the slash, and without a comma before 'sau'.",
+      "files": [],
+      "expectations": [
+        "The rewrite itself does not contain 'și/sau' (quoting the original in an explanation is fine)",
+        "The output keeps both channels (ghișeu and online) and says that both can be used",
+        "There is no comma immediately before 'sau'"
+      ]
+    },
+    {
+      "id": 7,
+      "prompt": "Rescrie clar: „Solicitantul va prezenta actele necesare: cartea de identitate, certificatul de naștere etc.”",
+      "expected_output": "Keeps the list open ('și altele') and does not invent list items.",
+      "files": [],
+      "expectations": [
+        "The output does not add a document that the source did not name (for example cazier, adeverință, diplomă)",
+        "The output signals that the list is open, for example with 'și altele', or says that the full list is not given",
+        "The rewrite itself does not contain 'etc.' (quoting the original in an explanation is fine)"
+      ]
+    },
+    {
+      "id": 8,
+      "prompt": "Verifică textul acesta și spune-mi ce nu respectă română clară, fără să-l rescrii tot: „Prezenta procedură are ca scop stabilirea modalităţii de realizare a activităţii de verificare a documentelor. Formularul care l-ați completat se depune la registratură; termenul este de 10 zile.”",
+      "expected_output": "A check-mode report: rule number, offending text, rewrite, and tier for each finding.",
+      "files": [],
+      "expectations": [
+        "The report flags the cedilla characters (ţ in 'modalităţii' and 'activităţii') under Rule 7.2",
+        "The report flags the missing 'pe' in 'care l-ați completat' under Rule 7.4",
+        "The report flags the genitive cascade or noun density under Rule 2.10 or 2.11",
+        "The report flags the semicolon under Rule 3.7",
+        "Every finding carries a tier label [N], [S], or [F] (inline or by section heading), and each label matches the tier SKILL.md gives that rule",
+        "The report cites no rule number that does not exist in SKILL.md and no ASD-STE100 rule number"
+      ]
+    },
+    {
+      "id": 9,
+      "prompt": "Fă mai clar pentru un regulament intern: „Angajații ar trebui să poarte cască de protecție în hala de producție.”",
+      "expected_output": "Does not silently turn 'ar trebui' into an obligation; asks or flags whether it is an obligation or a recommendation.",
+      "files": [],
+      "expectations": [
+        "The response does not silently replace 'ar trebui' with 'trebuie' or 'este obligatoriu'",
+        "The response asks, or flags for a human, whether the rule is an obligation or a recommendation"
+      ]
+    },
+    {
+      "id": 10,
+      "prompt": "Rescrie în română clară: „Rulați comanda `rm -rf ./cache; npm ci` după ce se va efectua actualizarea pachetelor.”",
+      "expected_output": "The command is copied unchanged; only the prose is rewritten.",
+      "files": [],
+      "expectations": [
+        "The output contains the exact string `rm -rf ./cache; npm ci` inside backticks",
+        "The phrase 'se va efectua actualizarea' is replaced by a verb, active or passive (for example 'după ce actualizați pachetele' or 'după ce pachetele sunt actualizate')"
+      ]
+    },
+    {
+      "id": 11,
+      "prompt": "E obligatoriu prin lege ca frazele să aibă sub 20 de cuvinte?",
+      "expected_output": "An honest tier answer: 20 is an average from an EU guide, per-sentence ceilings are house style, Legea 24/2000 binds only normative acts.",
+      "files": [],
+      "expectations": [
+        "The answer says the figure of 20 is an average from the Mic ghid de redactare clară, not a legal limit",
+        "The answer says per-sentence ceilings are the skill's own recommendation, not a rule",
+        "The answer says Legea 24/2000 binds normative acts only",
+        "The answer does not claim there is a certification or legal standard for plain Romanian",
+        "The answer does not overstate any source's reach (for example, it does not say DOOM 3 or a guide binds every Romanian text)"
+      ]
+    },
+    {
+      "id": 12,
+      "prompt": "Simplifică această clauză de contract: „Cu excepția cazurilor prevăzute la art. 5 alin. (2), chiria se achită, de regulă, până la data de 5 a fiecărei luni calendaristice.”",
+      "expected_output": "A simpler clause that keeps every qualifier, the citation, and the date.",
+      "files": [],
+      "expectations": [
+        "The output keeps the exception ('cu excepția' or an equivalent) and the citation 'art. 5 alin. (2)' unchanged",
+        "The output keeps 'de regulă' or an equivalent qualifier",
+        "The output keeps the day 5 of each month as the due date",
+        "No version offered to the user, including optional ones, names a party absent from the source (for example Chiriașul, Locatarul); a visible placeholder such as [termenul definit] is fine"
+      ]
+    },
+    {
+      "id": 13,
+      "prompt": "Fă textul ăsta de reclamă mai clar în română: „Descoperă noua generație de cafea artizanală, o experiență senzorială de neuitat!”",
+      "expected_output": "Says the plain-language rules are not meant for marketing copy and offers to help differently or with documentation.",
+      "files": [],
+      "expectations": [
+        "The response says română clară is meant for factual or instructional text, not advertising",
+        "The response does not strip the slogan down to a bare factual sentence without saying why"
+      ]
+    }
+  ]
+}
