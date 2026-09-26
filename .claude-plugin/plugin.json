@@ -1,0 +1,13 @@
+{
+  "name": "romana-clara",
+  "version": "1.2.0",
+  "description": "Write or rewrite Romanian text so it is clear, direct, and hard to misread: the Romanian counterpart of Simplified Technical English",
+  "author": {
+    "name": "Mihai-Ciprian Chezan"
+  },
+  "homepage": "https://github.com/MihaiCiprianChezan/skill-romana-clara",
+  "repository": "https://github.com/MihaiCiprianChezan/skill-romana-clara",
+  "license": "MIT",
+  "keywords": ["romanian", "plain-language", "limbaj-clar", "writing", "skill"],
+  "skills": ["./romana-clara"]
+}
